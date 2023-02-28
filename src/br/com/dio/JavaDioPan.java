@@ -1,23 +1,14 @@
 package br.com.dio;
 
+import br.com.dio.application.Aplicacao;
 import br.com.dio.model.TvSmart;
 
 public class JavaDioPan {
 	
 	public static void main(String[] args) {
-//		OutraClasse outraClasse = new OutraClasse();
-//		
-//		outraClasse.setClasse("NomeClasse");
-//		outraClasse.setMetodo("NomeMetodo");
-//		
-//		System.out.println(outraClasse);
 		
-		TvSmart tvsmart = new TvSmart();
+		Aplicacao aplicacao = new Aplicacao();
 		
-		//tvsmart.setClasse("NomeClasse");
-		//tvsmart.setMetodo("NomeMetodo");
-		
-		System.out.println(tvsmart);
 	}
 
 }
