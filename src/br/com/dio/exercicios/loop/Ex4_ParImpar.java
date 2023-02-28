@@ -36,6 +36,8 @@ public class Ex4_ParImpar {
 			}
 		}
 		
+		scn.close();
+		
 		System.out.println("\nPares [" + par + "] Ímpares [" + impar + "]");
 		System.out.println("\n\nObrigado por utilizar nossos sistemas.");
 	}

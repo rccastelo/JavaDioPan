@@ -36,6 +36,8 @@ public class Ex3_MaiorMedia {
 			}
 		}
 		
+		scn.close();
+		
 		System.out.println("\nMaior número [" + maior + "]");
 		System.out.println("\nMédia [" + (total / 5) + "]");
 		System.out.println("\n\nObrigado por utilizar nossos sistemas.");

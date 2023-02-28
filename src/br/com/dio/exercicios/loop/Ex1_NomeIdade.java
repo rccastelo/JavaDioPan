@@ -29,6 +29,8 @@ public class Ex1_NomeIdade {
 			System.out.println("\nAluno Nome [" + nome + "] Idade [" + idade + "]");
 		}
 		
+		scn.close();
+		
 		System.out.println("\n\nObrigado por utilizar nossos sistemas.");
 	}
 }

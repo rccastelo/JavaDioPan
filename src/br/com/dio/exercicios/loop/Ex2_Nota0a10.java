@@ -35,6 +35,8 @@ public class Ex2_Nota0a10 {
 			}
 		}
 		
+		scn.close();
+		
 		System.out.println("\nNota informada [" + notaNum + "]");
 		System.out.println("\n\nObrigado por utilizar nossos sistemas.");
 	}

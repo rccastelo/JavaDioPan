@@ -27,6 +27,8 @@ public class Ex6_Fatorial {
 			texto += i + " X ";
 		}
 
+		scn.close();
+		
 		System.out.println("\n" + numero + "!= " + fatorial + " (" + texto + "1)");	
 		System.out.println("\n\nObrigado por utilizar nossos sistemas.");
 	}

@@ -32,6 +32,8 @@ public class Ex5_Tabuada {
 			System.out.println(tabuada + " X " + i + " = " + (tabuada * i));	
 		}
 
+		scn.close();
+		
 		System.out.println("\n\nObrigado por utilizar nossos sistemas.");
 	}
 
