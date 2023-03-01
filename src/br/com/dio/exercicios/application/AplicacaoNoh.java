@@ -1,4 +1,4 @@
-package br.com.dio.application;
+package br.com.dio.exercicios.application;
 
 import br.com.dio.exercicios.noh.Noh;
 
