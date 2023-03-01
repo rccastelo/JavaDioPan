@@ -5,15 +5,15 @@ import br.com.dio.exercicios.noh.Noh;
 public class AplicacaoNoh {
 
 	public static void main(String[] args) {
-		Noh<String> noh1 = new Noh("noh um");
+		Noh<String> noh1 = new Noh<>("noh um");
 
-		Noh<String> noh2 = new Noh("noh dois");
+		Noh<String> noh2 = new Noh<>("noh dois");
 		noh1.setProximoNoh(noh2);
 		
-		Noh<String> noh3 = new Noh("noh tres");
+		Noh<String> noh3 = new Noh<>("noh tres");
 		noh2.setProximoNoh(noh3);
 		
-		Noh<String> noh4 = new Noh("noh quatro");
+		Noh<String> noh4 = new Noh<>("noh quatro");
 		noh3.setProximoNoh(noh4);
 		
 		System.out.println(noh1);
